@@ -118,7 +118,7 @@ text-decoration: none;
 }
 /* Estilo miniaturas */
 .miniatura {
-width: 18%; /* 100/nºimágenes, 5 en el ejemplo */
+width: 20%; /* 100/nºimágenes, 5 en el ejemplo */
 margin:1px;
 border: 3px solid black;
 opacity: 1;
@@ -163,7 +163,7 @@ z-index:3;
 /*Tabla*/
 table {
 	position: absolute;
-	top: 300px;
+	top: 400px;
     border-collapse: collapse;
     width: 100%;
    
@@ -189,3 +189,69 @@ tr:hover{
   bottom:0; 
   left:0; 
 }
+
+/*Formulario de busqueda*/
+/*Formulario*/
+form{
+ 
+  font-size: x-large;
+  text-align: center;
+  
+}
+
+input[type=text] {
+	    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-family: "Arial", sans-serif;
+    font-size: x-large;
+}
+input[type=submit] {
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+    font-size: x-large;
+    
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+
+}
+select{
+  width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-family: "Arial", sans-serif;
+    font-size: x-large;
+}
+
+.flex-itemformulario {
+	
+   
+    left: 200px;
+    border-radius: 8px;
+    border: 3px solid #555;
+
+    width: 800px;
+    height: 700px;
+    margin: 25px;
+}
+
